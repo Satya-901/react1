@@ -1,3 +1,8 @@
+import tree from "../Assets/tree.jpg"
+import image1 from "../Assets/image1.jpg"
+import image2 from "../Assets/image2.jpg"
+
+
 const Home = () => {
   return (
     <div>
@@ -35,7 +40,7 @@ const Home = () => {
           <div className="carousel-item">
             <img
               style={{ height: 500, width: 1520 }}
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+              src={tree}
               alt=""
             />
             <div className="container">
@@ -46,7 +51,7 @@ const Home = () => {
                   the carousel.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
+                  <a className="btn btn-lg btn-primary" href="/ ">
                     Sign up today
                   </a>
                 </p>
@@ -56,7 +61,7 @@ const Home = () => {
           <div className="carousel-item">
             <img
               style={{ height: 500, width: 1520 }}
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+              src={image1}
               alt=""
             />
             <div className="container">
@@ -67,7 +72,7 @@ const Home = () => {
                   of the carousel.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
+                  <a className="btn btn-lg btn-primary" href="">
                     Learn more
                   </a>
                 </p>
@@ -77,7 +82,7 @@ const Home = () => {
           <div className="carousel-item active">
             <img
               style={{ height: 500, width: 1520 }}
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+              src={image2}
               alt=""
             />
             <div className="container">
@@ -88,7 +93,7 @@ const Home = () => {
                   this carousel.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
+                  <a className="btn btn-lg btn-primary" href="">
                     Browse gallery
                   </a>
                 </p>
